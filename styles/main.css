@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #ecf0f1;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -60,7 +64,7 @@ header {
   font-weight: 900;
   line-height: 19px;
   color: white;
-  margin-right: 52px;
+  margin-right: 36px;
 }
 .navbar span:last-child {
   margin-right: 0;
@@ -68,7 +72,7 @@ header {
 .navbar span:hover {
   color: #1abc9c;
   border-top: 5px solid #1abc9c;
-  padding-top: 48px;
+  padding-top: 39px;
 }
 .buttons {
   width: 70px;
@@ -198,14 +202,14 @@ header {
 .product {
   width: 270px;
   height: 562px;
-  border: 1px black solid;
+  border: 1px solid #707070;
 }
 .product1Img {
   width: 100%;
   height: 367px;
 }
 .product1Info {
-  border: 0.3px black solid;
+  border: 1px solid #707070;
   border-left: 0;
   border-right: 0;
   font-weight: 900;
@@ -237,7 +241,6 @@ header {
   color: #1abc9c;
   margin-left: 22px;
   display: block;
-
 }
 .product1Buy {
   font-size: 13px;
@@ -277,7 +280,6 @@ header {
 }
 #pim {
   background-color: white;
-  border-left: 1px black solid;
 }
 
 .addToCart p {
@@ -289,10 +291,13 @@ header {
 .product:hover p {
   color: #fff;
 }
-
-.product1Buy:hover {
-  /* background: #2c3e50; */
+.theFox {
+  height: 140px;
+  margin-top: 92px;
+  display: flex;
+  border: 1px black dashed;
 }
+
 .addToCart:hover {
   background: #1abc9c;
 }
@@ -301,12 +306,7 @@ header {
 }
 /* Futured Product */
 
-.theFox {
-  height: 140px;
-  margin-top: 92px;
-  display: flex;
-  border: 1px black dashed;
-}
+
 
 /* Sector3  */
 .section3 {
@@ -489,7 +489,6 @@ header {
   margin-right: 0;
 }
 .bla {
-
   margin-top: 33px;
 }
 .recentVip {
@@ -560,6 +559,179 @@ header {
   display: inline-block;
 }
 
-#recborder{
-  border: 0.1px #E6E6E6 solid;
+#recborder {
+  border: 0.1px #e6e6e6 solid;
+}
+
+/* Recent products */
+
+/* News */
+.news {
+  margin-top: 195px;
+  height: 599px;
+}
+
+.newsTitle {
+  width: 1171.4px;
+  height: 44px;
+
+  margin-left: -3px;
+}
+.newsTitle p {
+  font-weight: 300; /* light*/
+  color: #34495e;
+  font-size: 36px;
+  line-height: 33px;
+}
+.newsTitle span {
+  font-weight: 900;
+}
+.storyNews {
+  height: 417px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 37px;
+}
+.story {
+  height: 194px;
+  width: 570px;
+  border: 1px solid #707070;
+}
+.storyNews :nth-child(1) {
+  margin-right: 30px;
+  margin-left: -2px;
+  margin-bottom: 30px;
+}
+.storyNews :nth-child(3) {
+  margin-right: 30px;
+  margin-left: -2px;
+}
+.design {
+  width: 1920px;
+  height: 673px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.designInfo {
+  width: 630px;
+  height: 188px;
+  margin-left: 527px;
+  margin-top: 75px;
+}
+.designImg {
+  margin-top: 57px;
+  margin-left: 254px;
+  height: 252px;
+  width: 1184px;
+}
+.designImg img {
+  height: 252px;
+}
+
+.designInfo span {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 20px;
+}
+.designInfo h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 24px;
+  margin-left: 167px;
+}
+.designInfo p {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 14px;
+  margin-left: 78px;
+}
+.designInfo p span {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-left: 56px;
+}
+
+.designButton {
+  position: relative;
+  height: 45px;
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 139px;
+  margin-top: 18px;
+}
+.learMore {
+  padding-top: 11px;
+  color: white;
+  width: 170px;
+  height: 46px;
+  border: 0.5px white solid;
+  text-align: center;
+}
+.learMore span {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.learMore:hover{
+  background-color:#21C2F8;
+  border: 0;
+}
+
+.purchaes{
+  margin-right: 3px;
+  padding-top: 10px;
+  color: white;
+  width: 170px;
+  height: 46px;
+  border: 0.5px white solid;
+  text-align: center;
+}
+.purchaes span{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.purchaes:hover{
+  background-color:#21C2F8;
+  border: 0;
+}
+.arrows{
+  position: relative;
+}
+.arrow2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  margin: auto;
+  top: 672px;
+  z-index: 1;
+  margin-left: 102px;
+}
+.arrow2 i{
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 50px;
+}
+.arrow3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  margin: auto;
+  top: 672px;
+  z-index: 1;
+  margin-left: 1562px;
+}
+.arrow3 i{
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 50px;
 }
