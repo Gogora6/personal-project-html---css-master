@@ -62,6 +62,7 @@ header {
   border: 1px solid #fff;
   padding: 17px 22px;
   border-radius: 5px;
+  
 }
 
 .slide-arrow-l {
@@ -926,7 +927,9 @@ header {
   width: 630px;
   height: 188px;
   margin-left: 527px;
-  margin-top: 75px;
+  margin-top: 77px;
+
+
 }
 .designImg {
   margin-top: 57px;
@@ -1005,6 +1008,7 @@ header {
 .purchaes span {
   font-size: 15px;
   margin-top: 10px;
+  
 }
 .purchaes:hover {
   background-color: #21c2f8;
@@ -1022,12 +1026,23 @@ header {
   top: 672px;
   z-index: 1;
   margin-left: 102px;
+
 }
 .arrow2 i {
   color: #ffffff;
   font-size: 30px;
   line-height: 50px;
 }
+.arrow3 i:hover{
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow2 i:hover{
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
 .arrow3 {
   position: absolute;
   width: 50px;
@@ -1036,7 +1051,7 @@ header {
   margin: auto;
   top: 672px;
   z-index: 1;
-  margin-left: 1562px;
+  margin-left: 1560px;
 }
 .arrow3 i {
   color: #ffffff;
